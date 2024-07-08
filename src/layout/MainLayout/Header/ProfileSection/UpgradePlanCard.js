@@ -48,7 +48,7 @@ const UpgradePlanCard = () => {
         }
       }}
     >
-      <CardContent>
+      {/* <CardContent>
         <Grid container direction="column" spacing={2}>
           <Grid item>
             <Typography variant="h4">Upgrade your plan</Typography>
@@ -75,7 +75,7 @@ const UpgradePlanCard = () => {
             </Stack>
           </Grid>
         </Grid>
-      </CardContent>
+      </CardContent> */}
     </Card>
   );
 };

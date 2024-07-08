@@ -254,7 +254,7 @@ const ProfileSection = () => {
                               }
                             />
                           </ListItemButton>
-                          <ListItemButton
+                          {/* <ListItemButton
                             sx={{ borderRadius: `${borderRadius}px` }}
                             selected={selectedIndex === 1}
                             onClick={(event) => handleListItemClick(event, 1, '/user/social-profile/posts')}
@@ -276,7 +276,7 @@ const ProfileSection = () => {
                                 </Grid>
                               }
                             />
-                          </ListItemButton>
+                          </ListItemButton> */}
                           <ListItemButton sx={{ borderRadius: `${borderRadius}px` }} selected={selectedIndex === 4} onClick={handleLogout}>
                             <ListItemIcon>
                               <IconLogout stroke={1.5} size="20px" />

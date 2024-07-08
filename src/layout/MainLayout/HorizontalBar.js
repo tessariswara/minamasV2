@@ -28,7 +28,7 @@ function ElevationScroll({ children, window }) {
     target: window
   });
 
-  theme.shadows[4] = theme.customShadows.z1;
+  theme.shadows[0] = theme.customShadows.z1;
 
   return React.cloneElement(children, {
     elevation: trigger ? 4 : 0

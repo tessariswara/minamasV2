@@ -36,7 +36,7 @@ const HeaderAvatar = forwardRef(({ children, ...others }, ref) => {
       sx={{
         ...theme.typography.commonAvatar,
         ...theme.typography.mediumAvatar,
-        display: { xs: 'none', md: 'flex' },
+        display: { xs: 'none', md: 'none' },
         bgcolor: theme.palette.mode === ThemeMode.DARK ? 'dark.main' : 'secondary.light',
         color: theme.palette.mode === ThemeMode.DARK ? 'secondary.main' : 'secondary.dark',
         '&:hover': {
