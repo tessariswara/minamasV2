@@ -50,7 +50,7 @@ const PopularCard = ({ isLoading }) => {
               <Grid item xs={12}>
                 <Grid container alignContent="center" justifyContent="space-between">
                   <Grid item>
-                    <Typography variant="h4">Popular Stocks</Typography>
+                    <Typography variant="h3">Pump Report</Typography>
                   </Grid>
                   <Grid item>
                     <MoreHorizOutlinedIcon
@@ -95,14 +95,14 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          Bajaj Finery
+                          LTS
                         </Typography>
                       </Grid>
                       <Grid item>
                         <Grid container alignItems="center" justifyContent="space-between">
                           <Grid item>
                             <Typography variant="subtitle1" color="inherit">
-                              $1839.00
+                              494 L
                             </Typography>
                           </Grid>
                           <Grid item>
@@ -126,7 +126,7 @@ const PopularCard = ({ isLoading }) => {
                   </Grid>
                   <Grid item>
                     <Typography variant="subtitle2" sx={{ color: 'success.dark' }}>
-                      10% Profit
+                      15% Saving
                     </Typography>
                   </Grid>
                 </Grid>
@@ -136,14 +136,14 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          TTML
+                          LMR
                         </Typography>
                       </Grid>
                       <Grid item>
                         <Grid container alignItems="center" justifyContent="space-between">
                           <Grid item>
                             <Typography variant="subtitle1" color="inherit">
-                              $100.00
+                              200 L
                             </Typography>
                           </Grid>
                           <Grid item>
@@ -167,7 +167,7 @@ const PopularCard = ({ isLoading }) => {
                   </Grid>
                   <Grid item>
                     <Typography variant="subtitle2" sx={{ color: 'orange.dark' }}>
-                      10% loss
+                      13% Loss
                     </Typography>
                   </Grid>
                 </Grid>
@@ -177,14 +177,14 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          Reliance
+                          LTS
                         </Typography>
                       </Grid>
                       <Grid item>
                         <Grid container alignItems="center" justifyContent="space-between">
                           <Grid item>
                             <Typography variant="subtitle1" color="inherit">
-                              $200.00
+                              569 L
                             </Typography>
                           </Grid>
                           <Grid item>
@@ -208,7 +208,7 @@ const PopularCard = ({ isLoading }) => {
                   </Grid>
                   <Grid item>
                     <Typography variant="subtitle2" sx={{ color: 'success.dark' }}>
-                      10% Profit
+                      18% Profit
                     </Typography>
                   </Grid>
                 </Grid>
@@ -218,14 +218,14 @@ const PopularCard = ({ isLoading }) => {
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
                         <Typography variant="subtitle1" color="inherit">
-                          TTML
+                          LMI
                         </Typography>
                       </Grid>
                       <Grid item>
                         <Grid container alignItems="center" justifyContent="space-between">
                           <Grid item>
                             <Typography variant="subtitle1" color="inherit">
-                              $189.00
+                              723 L
                             </Typography>
                           </Grid>
                           <Grid item>
@@ -249,12 +249,12 @@ const PopularCard = ({ isLoading }) => {
                   </Grid>
                   <Grid item>
                     <Typography variant="subtitle2" sx={{ color: 'orange.dark' }}>
-                      10% loss
+                      25% Loss
                     </Typography>
                   </Grid>
                 </Grid>
                 <Divider sx={{ my: 1.5 }} />
-                <Grid container direction="column">
+                {/* <Grid container direction="column">
                   <Grid item>
                     <Grid container alignItems="center" justifyContent="space-between">
                       <Grid item>
@@ -293,7 +293,7 @@ const PopularCard = ({ isLoading }) => {
                       10% loss
                     </Typography>
                   </Grid>
-                </Grid>
+                </Grid> */}
               </Grid>
             </Grid>
           </CardContent>

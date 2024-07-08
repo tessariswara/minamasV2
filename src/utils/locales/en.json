@@ -1,7 +1,7 @@
 {
-  "dashboard": "Dashboard",
-  "default": "Default",
-  "analytics": "Analytics",
+  "dashboard": "MAIN MENU",
+  "default": "Dashboard",
+  "analytics": "Graph",
 
   "widget": "Widget",
   "statistics": "Statistics",

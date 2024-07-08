@@ -279,7 +279,7 @@ const LeadSummary = ({ isLoading }) => {
             <Stack direction="row" spacing={1} justifyContent="space-between">
               <Stack spacing={1}>
                 <Typography variant="subtitle2" fontWeight="500">
-                  Total Growth
+                  Total Usage
                 </Typography>
                 <Typography variant="h3">$2324.00</Typography>
               </Stack>

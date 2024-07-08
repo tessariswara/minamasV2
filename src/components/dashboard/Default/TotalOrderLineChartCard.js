@@ -19,6 +19,7 @@ import { ThemeMode } from 'config';
 
 // assets
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
+import TableChartOutlinedIcon from '@mui/icons-material/TableChartOutlined';
 import ArrowDownwardIcon from '@mui/icons-material/ArrowDownward';
 
 // ==============================|| DASHBOARD - TOTAL ORDER LINE CHART CARD ||============================== //
@@ -155,7 +156,7 @@ const TotalOrderLineChartCard = ({ isLoading }) => {
                         mt: 1
                       }}
                     >
-                      <LocalMallOutlinedIcon fontSize="inherit" />
+                      <TableChartOutlinedIcon fontSize="inherit" />
                     </Avatar>
                   </Grid>
                   <Grid item>
@@ -186,9 +187,9 @@ const TotalOrderLineChartCard = ({ isLoading }) => {
                     <Grid container alignItems="center">
                       <Grid item>
                         {timeValue ? (
-                          <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>$108</Typography>
+                          <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>456 L</Typography>
                         ) : (
-                          <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>$961</Typography>
+                          <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>1839 L</Typography>
                         )}
                       </Grid>
                       <Grid item>
@@ -211,7 +212,7 @@ const TotalOrderLineChartCard = ({ isLoading }) => {
                             color: theme.palette.mode === ThemeMode.DARK ? 'text.secondary' : 'primary.200'
                           }}
                         >
-                          Total Order
+                          Anual Consumption
                         </Typography>
                       </Grid>
                     </Grid>

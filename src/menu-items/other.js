@@ -14,6 +14,7 @@ const icons = {
 
 const other = {
   id: 'sample-docs-roadmap',
+  title: 'HELP & SUPPORT',
   icon: IconHelp,
   type: 'group',
   children: [

@@ -1,6 +1,6 @@
 {
-  "name": "berry-react-material-next-js",
-  "version": "3.9.1",
+  "name": "minamsa",
+  "version": "masch",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -148,9 +148,9 @@ const FooterSection = () => {
             spacing={{ xs: 1.5, sm: 1, md: 3 }}
           >
             <Typography color="text.secondary">
-              © Berry is managed by{' '}
+              © masch.{' '}
               <Link href="https://codedthemes.com/" target="_blank" underline="hover">
-                CodedThemes
+                Collaboration with WIT.ID
               </Link>
             </Typography>
             <Stack direction="row" alignItems="center" spacing={{ xs: 3, sm: 1.5, md: 2 }}>

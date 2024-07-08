@@ -105,19 +105,19 @@ const status = [
 const TotalGrowthBarChart = ({ isLoading }) => {
   const [series] = useState([
     {
-      name: 'Investment',
+      name: 'Sungai Cengal Estate',
       data: [35, 125, 35, 35, 35, 80, 35, 20, 35, 45, 15, 75]
     },
     {
-      name: 'Loss',
+      name: 'Bebunga Factory',
       data: [35, 15, 15, 35, 65, 40, 80, 25, 15, 85, 25, 75]
     },
     {
-      name: 'Profit',
+      name: 'Berbunga Estate',
       data: [35, 145, 35, 35, 20, 105, 100, 10, 65, 45, 30, 10]
     },
     {
-      name: 'Maintenance',
+      name: 'Bakau Estate',
       data: [0, 0, 75, 0, 0, 115, 0, 0, 0, 0, 150, 0]
     }
   ]);
@@ -187,7 +187,7 @@ const TotalGrowthBarChart = ({ isLoading }) => {
                       <Typography variant="subtitle2">Total Growth</Typography>
                     </Grid>
                     <Grid item>
-                      <Typography variant="h3">$2,324.00</Typography>
+                      <Typography variant="h1">1839 L</Typography>
                     </Grid>
                   </Grid>
                 </Grid>

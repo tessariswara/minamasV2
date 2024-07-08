@@ -15,35 +15,35 @@ const icons = {
 };
 
 const loadingMenu = {
-  id: 'group-widget-loading',
-  title: <FormattedMessage id="widget" />,
-  type: 'group',
-  children: [
-    {
-      id: 'statistics1',
-      title: 'loading',
-      type: 'item',
-      icon: IconLoader,
-      url: '/widget/statistics',
-      breadcrumbs: false
-    },
-    {
-      id: 'data1',
-      title: 'loading',
-      type: 'item',
-      icon: IconLoader,
-      url: '/widget/data',
-      breadcrumbs: false
-    },
-    {
-      id: 'chart1',
-      title: 'loading',
-      type: 'item',
-      icon: IconLoader,
-      url: '/widget/chart',
-      breadcrumbs: false
-    }
-  ]
+  // id: 'group-widget-loading',
+  // title: <FormattedMessage id="widget" />,
+  // type: 'group',
+  // children: [
+  //   {
+  //     id: 'statistics1',
+  //     title: 'loading',
+  //     type: 'item',
+  //     icon: IconLoader,
+  //     url: '/widget/statistics',
+  //     breadcrumbs: false
+  //   },
+  //   {
+  //     id: 'data1',
+  //     title: 'loading',
+  //     type: 'item',
+  //     icon: IconLoader,
+  //     url: '/widget/data',
+  //     breadcrumbs: false
+  //   },
+  //   {
+  //     id: 'chart1',
+  //     title: 'loading',
+  //     type: 'item',
+  //     icon: IconLoader,
+  //     url: '/widget/chart',
+  //     breadcrumbs: false
+  //   }
+  // ]
 };
 
 // ==============================|| MENU ITEMS - API ||============================== //
@@ -55,22 +55,22 @@ export const Menu = () => {
 
   const SubChildrenLis = (subChildrenLis) =>
     subChildrenLis?.map((subList) => ({
-      ...subList,
-      title: <FormattedMessage id={`${subList.title}`} />,
-      // @ts-ignore
-      icon: icons[subList.icon]
+      // ...subList,
+      // title: <FormattedMessage id={`${subList.title}`} />,
+      // // @ts-ignore
+      // icon: icons[subList.icon]
     }));
 
   const menuItem = (subList) => {
     const list = {
-      ...subList,
-      title: <FormattedMessage id={`${subList.title}`} />,
-      // @ts-ignore
-      icon: icons[subList.icon]
+      // ...subList,
+      // title: <FormattedMessage id={`${subList.title}`} />,
+      // // @ts-ignore
+      // icon: icons[subList.icon]
     };
 
     if (subList.type === 'collapse') {
-      list.children = SubChildrenLis(subList.children);
+      // list.children = SubChildrenLis(subList.children);
     }
     return list;
   };
@@ -80,10 +80,10 @@ export const Menu = () => {
   const ChildrenList = withoutMenu?.map((subList) => menuItem(subList));
 
   const menuList = {
-    ...menu,
-    title: <FormattedMessage id={`${menu.title}`} />,
-    icon: icons[menu.icon],
-    children: ChildrenList
+    // ...menu
+    // title: <FormattedMessage id={`${menu.title}`} />,
+    // icon: icons[menu.icon],
+    // children: ChildrenList
   };
 
   return menuList;

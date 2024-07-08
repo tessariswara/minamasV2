@@ -25,6 +25,7 @@ import GetAppTwoToneIcon from '@mui/icons-material/GetAppOutlined';
 import FileCopyTwoToneIcon from '@mui/icons-material/FileCopyOutlined';
 import PictureAsPdfTwoToneIcon from '@mui/icons-material/PictureAsPdfOutlined';
 import ArchiveTwoToneIcon from '@mui/icons-material/ArchiveOutlined';
+import TableChartOutlinedIcon from '@mui/icons-material/TableChartOutlined';
 
 const EarningIcon = '/assets/images/icons/earning.svg';
 
@@ -96,10 +97,12 @@ const EarningCard = ({ isLoading }) => {
                         ...theme.typography.commonAvatar,
                         ...theme.typography.largeAvatar,
                         bgcolor: theme.palette.mode === ThemeMode.DARK ? 'dark.main' : 'secondary.800',
-                        mt: 1
+                        mt: 1,
+                        color: '#fff'
                       }}
                     >
-                      <Image src={EarningIcon} height={30} width={30} alt="Notification" style={{ maxWidth: '100%', height: 'auto' }} />
+                      {/* <Image src={EarningIcon} height={30} width={30} alt="Notification" style={{ maxWidth: '100%', height: 'auto' }} /> */}
+                      <TableChartOutlinedIcon fontSize="inherit" />
                     </Avatar>
                   </Grid>
                   <Grid item>
@@ -153,7 +156,7 @@ const EarningCard = ({ isLoading }) => {
               <Grid item>
                 <Grid container alignItems="center">
                   <Grid item>
-                    <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>$500.00</Typography>
+                    <Typography sx={{ fontSize: '2.125rem', fontWeight: 500, mr: 1, mt: 1.75, mb: 0.75 }}>39 L</Typography>
                   </Grid>
                   <Grid item>
                     <Avatar
@@ -177,7 +180,7 @@ const EarningCard = ({ isLoading }) => {
                     color: theme.palette.mode === ThemeMode.DARK ? 'text.secondary' : 'secondary.200'
                   }}
                 >
-                  Total Earning
+                  Daily Consumption
                 </Typography>
               </Grid>
             </Grid>
