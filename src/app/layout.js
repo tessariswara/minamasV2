@@ -5,8 +5,8 @@ import './globals.css';
 import ProviderWrapper from 'store/ProviderWrapper';
 
 export const metadata = {
-  title: 'Fuel Management System',
-  description: 'This is Dashboard Management.'
+  title: 'Minamas - Fuel Management System',
+  description: 'This is Dashboard Management .'
 };
 
 // ==============================|| ROOT LAYOUT ||============================== //
